@@ -13,6 +13,7 @@ from baselines.common.cmd_util import common_arg_parser, parse_unknown_args, mak
 from baselines.common.tf_util import get_session
 from baselines import logger
 from importlib import import_module
+import timing
 
 try:
     from mpi4py import MPI

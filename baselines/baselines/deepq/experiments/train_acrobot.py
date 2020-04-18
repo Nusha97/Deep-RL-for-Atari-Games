@@ -11,17 +11,23 @@ def main():
     # Enabling layer_norm here is import for parameter space noise!
     act = deepq.learn(
         env,
-        network=models.mlp(num_hidden=64, num_layers=1),
+        network='mlp',
         lr=1e-3,
         total_timesteps=100000,
-        buffer_size=50000,
+        buffer_size=10000,
         exploration_fraction=0.1,
-        exploration_final_eps=0.1,
+        exploration_final_eps=0.02,
+        batch_size=32,
         print_freq=10,
-        param_noise=True
+        prioritized_replay=True,
+        prioritized_replay_alpha=0.6,
+        checkpoint_freq=10000,
+        checkpoint_path=None,
+        dueling=True
+        callback=callback
     )
-    print("Saving model to mountaincar_model.pkl")
-    act.save("mountaincar_model.pkl")
+    print("Saving model to Acrobot_model.pkl")
+    act.save("models/Acrobot_model.pkl")
 
 
 if __name__ == '__main__':
