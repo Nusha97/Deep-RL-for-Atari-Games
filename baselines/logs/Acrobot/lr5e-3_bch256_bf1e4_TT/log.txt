@@ -1,0 +1,60 @@
+Logging to logs/Acrobot/lr5e-3_bch256_bf1e4_TT
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 100      |
+| mean 100 episode reward | -313     |
+| steps                   | 3.1e+04  |
+--------------------------------------
+Saving model due to mean reward increase: None -> -179.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 200      |
+| mean 100 episode reward | -119     |
+| steps                   | 4.31e+04 |
+--------------------------------------
+Saving model due to mean reward increase: -179.0 -> -90.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 300      |
+| mean 100 episode reward | -89.8    |
+| steps                   | 5.21e+04 |
+--------------------------------------
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 400      |
+| mean 100 episode reward | -90.4    |
+| steps                   | 6.13e+04 |
+--------------------------------------
+Saving model due to mean reward increase: -90.0 -> -87.30000305175781
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 500      |
+| mean 100 episode reward | -87.8    |
+| steps                   | 7.02e+04 |
+--------------------------------------
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 600      |
+| mean 100 episode reward | -86.8    |
+| steps                   | 7.9e+04  |
+--------------------------------------
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 700      |
+| mean 100 episode reward | -85.3    |
+| steps                   | 8.76e+04 |
+--------------------------------------
+Saving model due to mean reward increase: -87.30000305175781 -> -83.5999984741211
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 800      |
+| mean 100 episode reward | -82.9    |
+| steps                   | 9.6e+04  |
+--------------------------------------
+Restored model with mean reward: -83.5999984741211
+
+Elapsed time: 0:07:32.430494
+========================================
+
+453.90user 9.72system 7:34.22elapsed 102%CPU (0avgtext+0avgdata 675780maxresident)k
+0inputs+7088outputs (0major+117150minor)pagefaults 0swaps
