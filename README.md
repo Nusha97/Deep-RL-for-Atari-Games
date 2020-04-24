@@ -17,7 +17,7 @@ We actually use two platforms according to our accessible resources:
 
 
 ## Note for `baselines`
-results stored in `./logs` folder; pics stored in `./pics` folder 
+results (including both results of DQN and A2C) stored in `./logs` folder; pics stored in `./pics` folder 
 
 
 ### Changed files: 
