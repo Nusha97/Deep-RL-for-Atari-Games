@@ -6,7 +6,7 @@ We actually use two platforms according to our accessible resources:
 
 `Notebooks` is used for training CartPole with DQN and both games with A2C (run on colab with Jupyter Notebook)
 
-`baselines` is used for Acrobot with DQN (run on server with GPU)
+`baselines` is used for training Acrobot with DQN (run on server with GPU)
 
 
 
