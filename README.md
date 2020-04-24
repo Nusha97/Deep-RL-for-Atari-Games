@@ -4,7 +4,7 @@ Investigating different reinforcement algorithms on openai baseline datasets
 
 We actually use two platforms according to our accessible resources:
 
-`notebook` is used for CartPole with DQN and both games with A2C (run on colab)
+`Notebooks` is used for CartPole with DQN and both games with A2C (run on colab)
 
 `baselines` is used for Acrobot with DQN (run on server with GPU)
 
